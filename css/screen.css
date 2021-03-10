@@ -80,6 +80,34 @@ h1 {
   margin: 0 0 24px;
 }
 
+@media (min-width: 576px) {
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 46px;
+    line-height: 56px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 52px;
+    line-height: 64px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 58px;
+    line-height: 72px;
+  }
+}
+
 h2 {
   font-size: 23px;
   line-height: 32px;
@@ -129,6 +157,8 @@ blockquote {
   font-size: 23px;
   line-height: 32px;
   margin: 0 0 24px;
+  padding: 48px 0;
+  color: #00b37d;
   font-family: 'Times New Roman', serif;
 }
 
@@ -263,6 +293,22 @@ a:focus {
 
 .u-max-width-md {
   max-width: 40em;
+}
+
+/*
+  utility margins
+*/
+
+.u-mb-clear {
+  margin-bottom: 0;
+}
+
+.u-mb-sm {
+  margin-bottom: 8px;
+}
+
+.u-mb-md {
+  margin-bottom: 16px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
